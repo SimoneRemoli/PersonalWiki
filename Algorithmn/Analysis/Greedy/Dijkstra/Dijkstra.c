@@ -3,7 +3,7 @@
 #define MAXSIZE 100
 #define INFINITY 9999
 
-void print_result(int d[]);
+void print_result(int d[],int);
 void DIJKSTRA(int G[][MAXSIZE], int d[], int source, int S[], int n, int pre[]);	//S set, 1 means existed
 void print_matrix(int G[][MAXSIZE], int i, int j);
 void print_path(int pre[], int source, int destination);
